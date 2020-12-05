@@ -4,39 +4,54 @@
             <h1 class="info__subtitle">Tradition and love </h1>
             <h2 class="info__title">How it’s made?</h2>
             <div class="info__container">
-                <div class="info__img-content">
+                <div class="info__img-container">
                     <picture>
-                        <img src="#" alt="Cow and milk">
+                        <source srcset="./img/bio-eco-cow-mobile.png 1x, ./img/bio-eco-cow-mobile@2x.png 2x" media="(max-widh: 767px)">
+                        <source srcset="./img/bio-eco-cow-tablet.png 1x, ./img/bio-eco-cow-tablet@2x.png 2x" media="(max-widh: 1199x)"> 
+                        <img srcset="./img/bio-eco-cow@2x.png 2x" src="./img/bio-eco-cow.png" alt="Cow and milk">
                     </picture>
                 </div>
             <div class="info__text-container">
-                <p class="info__text--black">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
-                <p class="ino__text--gray">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+                <p class="info__text black">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                <p class="info__text gray">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
 
 
                     Aliquam erat volutpat. Aenean accumsan.</p>
+                    <div class="info__bg-img">
+                        <picture>
+                            <source srcset="./img/sectionbg-mobile.png 1x, ./img/sectionbg-mobile.png 2x" media="(max-widh: 767px)">
+                                <img srcset="./img/sectionbg@2x.png 2x" src="./img/sectionbg.png" alt="milk">
+                        </picture>
+                    </div>
                 </div>
             </div>
-                <button class="btn info__btn">Read more</button>
+                <button type="button" class="btn info__btn">Read more</button>
                 <ul class="info__list">
                     <li class="info__item">
-                        <svg class=info__icon></svg>
+                        <svg class=info__icon>
+                            <use href="./img/symbol-defs.svg#icon1"></use>
+                        </svg>
                         <h3 class="info__item-title">721</h3>
-                        <p class="info__iem-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                        <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="info__item">
                         <svg class=info__icon></svg>
                         <h3 class="info__item-title">16kg</h3>
-                        <p class="info__iem-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                        <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="info__item">
                         <svg class=info__icon></svg>
                         <h3 class="info__item-title">84</h3>
-                        <p class="info__iem-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                        <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                 </ul>
-                <div class="info__buttom-img">
-                    <img src="#" alt="Diferent pictures">
+                
+                <div class="info__bottom-img">
+                    <picture>
+                        <source srcset="./img/home-mobile.png 1x, ./img/home-mobile@2x.png 2x" media="(max-widh: 767x)">
+                        <source srcset="./img/home-tablet.png 1x, ./img/home-tablet@2x.png 2x" media="(max-widh: 1199x)"> 
+                        <img srcset="./img/home@2x.png 2x" src="./img/home.png" alt="Diferent pictures">
+                    </picture>
                 </div>
             
         </div>

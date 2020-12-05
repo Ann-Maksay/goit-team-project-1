@@ -1,0 +1,150 @@
+.info {
+  padding-top: 125px;
+  padding-bottom: 145px;
+
+  background-color: #fff5f6;
+
+  &__subtitle {
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $pink;
+  }
+
+  &__title {
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: $accentColor;
+  }
+
+  &__img-container {
+    width: calc(100% - 20px * 2);
+    height: auto;
+    margin: 0 auto;
+    // position: absolute;
+  }
+
+  &__text-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  &__text {
+    font-family: $mainFontFamily;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+
+    &.black {
+      color: $black;
+    }
+
+    &.gray {
+      color: $gray;
+    }
+  }
+
+  &__bg-img {
+    position: absolute;
+
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__btn {
+    position: relative;
+    background-color: $white;
+
+    min-width: 176px;
+    margin-left: 30px;
+    margin-top: 17px;
+    border-radius: 22px;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: $mainFontFamily;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: $accentColor;
+
+    &:after {
+      content: ' ';
+      display: block;
+
+      background-image: url(./../img/svg/vect.svg);
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 13px;
+
+      position: absolute;
+      right: 18px;
+      top: 19px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin-bottom: 38px;
+
+    &:last-child() {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    fill: black;
+  }
+
+  &__item-title {
+    font-family: $titleFontFamily;
+    color: $accentColor;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    margin-top: 16px;
+    margin-bottom: 19px;
+  }
+
+  &__item-text {
+    font-family: $mainFontFamily;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+
+    color: black;
+  }
+
+  &__bottom-img {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(+50%);
+  }
+}

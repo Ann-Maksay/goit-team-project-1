@@ -28,24 +28,40 @@
                 <button type="button" class="btn info__btn">Read more</button>
                 <ul class="info__list">
                     <li class="info__item">
-                        <svg class=info__icon>
-                            <use href="./img/symbol-defs.svg#icon1"></use>
-                        </svg>
+                        <div class="icon-container">
+                            <picture>
+                                <source srcset="./img/icon1-mobile.png 1x, ./img/icon1-mobile@2x.png 2x" media="(max-widh: 767px)">
+                                <source srcset="./img/icon1-tablet.png 1x, ./img/icon1-tablet@2x.png 2x" media="(max-widh: 1199x)"> 
+                                <img srcset="./img/icon1@2x.png 2x" src="./img/icon1.png" alt="glass">
+                            </picture>
+                        </div>
                         <h3 class="info__item-title">721</h3>
                         <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="info__item">
-                        <svg class=info__icon></svg>
+                        <div class="icon-container">
+                            <picture>
+                                <source srcset="./img/icon2-mobile.png 1x, ./img/icon2-mobile@2x.png 2x" media="(max-widh: 767px)">
+                                <source srcset="./img/icon2-tablet.png 1x, ./img/icon2-tablet@2x.png 2x" media="(max-widh: 1199x)"> 
+                                <img srcset="./img/icon2@2x.png 2x" src="./img/icon2.png" alt="glass2">
+                            </picture>
+                        </div>
                         <h3 class="info__item-title">16kg</h3>
                         <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="info__item">
-                        <svg class=info__icon></svg>
+                       <div class="icon-container">
+                        <picture>
+                            <source srcset="./img/icon3-mobile.png 1x, ./img/icon3-mobile@2x.png 2x" media="(max-widh: 767px)">
+                            <source srcset="./img/icon3-tablet.png 1x, ./img/icon3-tablet@2x.png 2x" media="(max-widh: 1199x)"> 
+                            <img srcset="./img/icon3@2x.png 2x" src="./img/icon3.png" alt="glass3">
+                        </picture>
+                       </div>
                         <h3 class="info__item-title">84</h3>
                         <p class="info__item-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                 </ul>
-                
+
                 <div class="info__bottom-img">
                     <picture>
                         <source srcset="./img/home-mobile.png 1x, ./img/home-mobile@2x.png 2x" media="(max-widh: 767x)">

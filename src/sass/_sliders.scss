@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: black;
+  }
+
+  @media screen and(min-width: 768px) {
+    img {
+      margin-bottom: 19px;
+    }
+
+    h3 {
+      font-size: 16px;
+      line-height: 186%;
+
+      margin-bottom: 35px;
+    }
+  }
+
+  @media screen and(min-width: 1200px) {
+    img {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.slider-text {
+  width: 280px;
+  height: 308px;
+  padding-left: 57px;
+  padding-right: 66px;
+
+  margin-bottom: 30px;
+
+  background: #fafafa;
+
+  background-image: url(./../images/background-lines.png);
+  background-repeat: no-repeat;
+  background-size: 69% 69%;
+  background-position: 44% 74%;
+
+  p::before {
+    content: url(./../images/background-quotes.png);
+    position: absolute;
+    top: -14px;
+    left: -2px;
+
+    z-index: -1;
+  }
+
+  p {
+    position: relative;
+    margin-top: 42px;
+
+    font-family: 'DM Sans', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 255%;
+    text-align: center;
+
+    color: #000000;
+    z-index: 2;
+  }
+
+  @media screen and(min-width: 768px) {
+    width: 620px;
+    height: 163px;
+    padding-left: 60px;
+    padding-right: 36px;
+
+    background: rgba(250, 250, 250, 0.4);
+    background-image: url(../images/background-lines.png);
+    background-repeat: no-repeat;
+    background-size: 91% 126%;
+    background-position: 65% -182%;
+
+    margin-bottom: 24px;
+
+    p::before {
+      content: url(./../images/background-quotes.png);
+      position: absolute;
+      left: -40px;
+
+      z-index: -1;
+    }
+
+    p {
+      margin-top: 47px;
+
+      font-size: 14px;
+      line-height: 216%;
+      letter-spacing: 0.04em;
+
+      z-index: 2;
+    }
+  }
+
+  @media screen and(min-width: 1200px) {
+    width: 926px;
+    height: 138px;
+    padding-left: 59px;
+    padding-right: 54px;
+
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: 93% 170%;
+    background-position: 59% -76%;
+
+    margin-bottom: 15px;
+
+    p::before {
+      content: url(./../images/background-quotes.png);
+      position: absolute;
+      top: -17px;
+
+      z-index: -1;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 186%;
+
+      z-index: 2;
+    }
+  }
+}
+
+.ellipse {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 18px;
+
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  svg {
+    display: block;
+    width: 4px;
+    height: 4px;
+    fill: #c7133e;
+  }
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 14px;
+  }
+}
+
+.slider-menu {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  svg {
+    display: block;
+    width: 12px;
+    height: 12px;
+  }
+
+  .icon-ellipse {
+    fill: #d9d9d9;
+  }
+}

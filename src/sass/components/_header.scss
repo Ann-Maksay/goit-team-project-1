@@ -171,6 +171,10 @@ text-decoration: none;
     display: none;
 }
 
+.header__nav {
+display: none;
+}
+
 @media (min-width: 768px) {
 
     .header {
@@ -348,6 +352,162 @@ background-size: cover;
 top: 87px;
 left: 163px;
 
+}
+
+    }
+
+
+    @media (min-width: 1280px) {
+.header {
+    padding: 6px 46px 0 46px;
+    height: 665px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__nav {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav--list {
+    list-style: none;
+    display: flex;
+    max-width: 550px;
+
+}
+
+.header__nav--link { 
+    margin-right: 35px;
+    &:last-child {
+        margin-right: 0;
+    }
+    a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+     }
+}
+
+.header__circle {
+    width: 538px;
+height: 538px;
+left: 475px;
+top: 40px;
+} 
+
+.header__icecream {
+    width: 236px;
+height: 557px;
+left: 594px;
+top: 113px;
+}
+
+.header__title {
+    left: 115px;
+top: 171px;
+font-size: 38px;
+line-height: 44px;
+span {
+    line-height: 44px;
+    font-size: 58px;
+}
+}
+
+.header__buttons {
+    left: 115px;
+top: 353px;
+
+}
+
+.header__button {
+    font-size: 14px;
+line-height: 18px;
+}
+
+.btn-red {
+    width: 102px;
+height: 40px;
+}
+.btn-white {
+    width: 138px;
+height: 40px;
+}
+
+.header__numbers {
+    left: 1111px;
+top: 160px;
+}
+
+.header__numbers--item {
+    .first-num::before {
+        top: 50px;
+        font-size: 14px;
+    }
+
+    .second-num::before {
+        top: 50px;
+        left: -10px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    &::after {
+        right: -7px;
+    }
+}
+
+
+.header__number--num {
+    width: 54px;
+height: 53px;
+font-size: 46px;
+}
+
+.header__bottom {
+    top: 320px;
+    left: 0px;
+}
+
+.header__bottom--item {
+ p {
+     top: 60px;
+     width: 200px;
+     font-size: 14px;
+ }
+}
+
+.header__bottom--arrow {
+    top: 167px;
+    left: 227px;
+}
+
+
+
+.header__bottom--item .item-tasty {
+    width: 293px;
+height: 232px;
+object-fit: cover;
+    position: relative;
+    z-index: 5;
+    top: 20px;
+    right: 25px;
+}
+
+.item-bio {
+    width: 188px;
+height: 191px;
+object-fit: cover;
 }
 
     }

@@ -11,11 +11,9 @@
 @import './base/baseSyle';
 @import './utils/variables';
 
-@import "components/header";
-@import "components/header__menu";
-@import './cards';
+@import 'components/header';
+@import 'components/header__menu';
+@import './components/cards';
 @import './components/info';
-@import './example';
 @import './sliders';
 @import './components/foote';
-

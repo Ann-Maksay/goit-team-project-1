@@ -28,6 +28,12 @@
     }
   }
 
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   &__subtitle {
     font-family: $titleFontFamily;
     font-weight: 400;

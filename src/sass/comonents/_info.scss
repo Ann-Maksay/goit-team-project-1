@@ -253,6 +253,7 @@
     }
     @media screen and (min-width: 1200px) {
       margin-top: 35px;
+      width: calc(100% - 20px * 2);
       margin-right: auto;
       margin-left: auto;
     }

@@ -331,7 +331,23 @@ line-height: 150%;
     position: relative;
     z-index: 5;
     top: 25px;
+    right: -34px;
 }
-} 
+}
+
+.header__bottom--arrow {
+    display: block;
+    position: absolute;
+    width: 18px;
+height: 18px;
+border-radius:  50%;
+background: url("/img/svg/arrow-right.svg") no-repeat;
+
+background-size: cover;
+
+top: 87px;
+left: 163px;
+
+}
 
     }

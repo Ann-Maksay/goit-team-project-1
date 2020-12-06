@@ -6,5 +6,11 @@
 // Стили для файла с примером HTML-фрагмента
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap');
 @import './base/normalize';
+@import './base/baseSyle';
+@import './utils/variables';
+
 @import "components/header";
 @import "components/header__menu";
+
+@import './components/info';
+@import './components/foote';

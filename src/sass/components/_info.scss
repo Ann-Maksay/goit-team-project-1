@@ -1,0 +1,347 @@
+.info {
+  padding-top: 125px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 130px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 125px;
+  }
+
+  background-color: #fff5f6;
+
+  // position: relative;
+
+  &__subtitle {
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-bottom: 15px;
+
+    color: $pink;
+
+    @media screen and(min-width: 768px) {
+      font-size: 26px;
+      line-height: 30px;
+
+      margin-bottom: 16px;
+    }
+
+    @media screen and(min-width: 768px) {
+      font-size: 30px;
+      line-height: 34px;
+
+      margin-bottom: 15px;
+    }
+  }
+
+  &__title {
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-bottom: 26px;
+
+    color: $accentColor;
+
+    @media screen and(min-width: 768px) {
+      font-size: 48px;
+      line-height: 55px;
+
+      margin-bottom: 50px;
+    }
+
+    @media screen and(min-width: 768px) {
+      font-size: 58px;
+      line-height: 66px;
+
+      margin-bottom: 55px;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__img-container {
+    width: calc(100% - 20px * 2);
+    height: auto;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      width: calc(100% - 17px * 5 / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 40%;
+    }
+  }
+
+  &__text-container {
+    margin-left: 30px;
+    margin-right: 30px;
+
+    @media screen and (min-width: 768px) {
+      width: calc(100% - 17px * 5 / 2);
+      margin-top: 50px;
+      margin-left: 17px;
+      margin-right: auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 35%;
+      margin-top: 51px;
+      margin-left: 74px;
+      margin-right: auto;
+    }
+  }
+
+  &__text {
+    position: relative;
+    z-index: 10;
+
+    font-family: $mainFontFamily;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+
+    margin: 0;
+
+    @media screen and(min-width: 768px) {
+      font-size: 14px;
+      line-height: 176%;
+    }
+
+    @media screen and(min-width: 768px) {
+      font-size: 16px;
+      line-height: 176%;
+    }
+
+    &.black {
+      color: $black;
+      margin-bottom: 30px;
+
+      @media screen and(min-width: 768px) {
+        margin-bottom: 35px;
+      }
+      @media screen and(min-width: 768px) {
+        margin-bottom: 29px;
+      }
+    }
+
+    &.gray {
+      color: $gray;
+    }
+
+    &.bottom-text {
+      margin-top: 15px;
+
+      @media screen and(min-width: 768px) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  &__bg-img {
+    position: absolute;
+
+    width: 100vw;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media screen and (min-width: 600px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: block;
+      top: 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+      top: -70px;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    background-color: $white;
+
+    min-width: 176px;
+    margin-left: 30px;
+    margin-top: 17px;
+    border-radius: 22px;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 37px;
+    padding-right: 56px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: $mainFontFamily;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: $accentColor;
+
+    transition: background-color 250ms linear;
+
+    @media screen and (min-width: 346px) {
+      font-size: 16px;
+      line-height: 21px;
+
+      margin-top: 62px;
+      margin-left: 0px;
+    }
+
+    @media screen and (min-width: 346px) {
+      margin-top: 71px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+
+    &:after {
+      content: ' ';
+      display: block;
+
+      background-image: url(./../img/svg/vect.svg);
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 13px;
+
+      position: absolute;
+      right: 26px;
+      top: 19px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    padding-bottom: 97px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-top: 60px;
+      padding-bottom: 140px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 35px;
+      width: calc(100% - 20px * 2);
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  &__item {
+    margin-bottom: 38px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+      margin-right: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 30px;
+
+      width: calc(((100% - 30px * 2) / 3) - 20px * 2);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+
+      @media screen and (min-width: 768px) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(1) .icon-container {
+      width: 33px;
+    }
+    &:nth-child(2) .icon-container {
+      width: 50px;
+    }
+    &:nth-child(3) .icon-container {
+      width: 44px;
+    }
+  }
+
+  &__item-title {
+    font-family: $titleFontFamily;
+    color: $accentColor;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    margin-top: 16px;
+    margin-bottom: 19px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 48px;
+      line-height: 55px;
+      margin-top: 36px;
+      margin-bottom: 13px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 58px;
+      line-height: 66px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__item-text {
+    font-family: $mainFontFamily;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+
+    color: black;
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 174%;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 176%;
+    }
+  }
+
+  &__bottom-img {
+    width: 100%;
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    //   transform: translateY(+50%);
+  }
+}

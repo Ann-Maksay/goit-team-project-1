@@ -11,7 +11,32 @@
 
   background-color: #fff5f6;
 
-  // position: relative;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin: 0 auto;
+  
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+      width: 480px;
+    }
+  
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      padding-left: 34px;
+      padding-right: 34px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
+  }
 
   &__subtitle {
     font-family: $titleFontFamily;

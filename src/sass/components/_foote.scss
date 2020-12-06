@@ -74,7 +74,7 @@ a {
   font-family: $mainFontFamily;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+ 
   line-height: 186%;
   /* or 22px */
 
@@ -89,7 +89,7 @@ a {
   font-family: $mainFontFamily;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  
   line-height: 18px;
   /* or 150% */
   color: $gray;
@@ -102,7 +102,7 @@ a {
   color: $pink;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  
   line-height: 186%;
 }
 .foter-towncard {
@@ -392,8 +392,10 @@ a {
   .footer-card {
     margin-right: auto;
     margin-left: auto;
-    max-width: 180px;
+    max-width: 220px;
+    font-size: 16px; 
   }
+
 
   .footer-but {
     margin-bottom: 10px;
@@ -429,12 +431,15 @@ a {
   .footer-card {
     margin-right: 20px;
     margin-left: 0;
-    width: 180px;
+    width: 220px;
+    font-size: 14px; 
 
     &:last-child {
       margin-right: 0;
     }
   }
+ 
+  
   .footer-button {
     margin-right: auto;
     margin-left: auto;
@@ -469,13 +474,17 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-last {
+  .footer-last 
+  {
     padding-right: 121px;
     padding-left: 114px;
   }
-  .footer-card {
+  .footer-card 
+  {
     width: 330px;
+    font-size: 16px; 
   }
+ 
   .footer-cards {
     background-position: 0px 70px;
     background-size: 100%;

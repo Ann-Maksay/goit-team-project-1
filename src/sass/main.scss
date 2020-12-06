@@ -9,5 +9,8 @@
 @import './base/baseSyle';
 @import './utils/variables';
 
+@import "components/header";
+@import "components/header__menu";
+
 @import './components/info';
 @import './components/foote';

@@ -220,7 +220,7 @@
     &:after {
       content: ' ';
       display: block;
-      background-image: url(./../img/svg/vectortwo.svg);
+      background-image: url(./../images/svg/vectortwo.svg);
       background-repeat: no-repeat;
       width: 16px;
       height: 13px;
@@ -263,7 +263,7 @@
     &:after {
       content: ' ';
       display: block;
-      background-image: url(./../img/svg/vect.svg);
+      background-image: url(./../images/svg/vect.svg);
       background-repeat: no-repeat;
       width: 16px;
       height: 13px;
@@ -486,13 +486,13 @@
       background-size: 100%;
       background-repeat: no-repeat;
 
-      background-image: url(./../img/sectionbg2one.png);
+      background-image: url(./../images/sectionbg2one.png);
     }
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       .footer-cards {
-        background-image: url(./../img/sectionbg2@2xtwo.png);
+        background-image: url(./../images/sectionbg2@2xtwo.png);
       }
     }
     .footer-iconn {

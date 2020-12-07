@@ -8,10 +8,12 @@
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="github">
     <path d="M10 .588C4.83.588.588 4.831.588 10c0 4.412 3.096 8.419 7.206 9.412v-3.114c-.407.09-.782.092-1.197-.03-.556-.165-1.008-.535-1.343-1.1-.214-.36-.593-.752-.988-.723l-.097-1.099c.855-.073 1.594.521 2.033 1.259.195.328.42.52.708.605.278.082.577.043.926-.08.087-.698.407-.96.648-1.327-2.451-.366-3.428-1.667-3.816-2.693-.514-1.363-.238-3.066.67-4.142.018-.02.05-.076.038-.114-.417-1.259.09-2.3.11-2.41.48.142.558-.143 2.088.786l.264.159c.11.066.076.028.187.02A7.987 7.987 0 0110 5.131a8.022 8.022 0 012.002.285l.086.009c-.008-.001.023-.006.075-.037 1.91-1.157 1.842-.779 2.354-.945.019.11.52 1.168.107 2.41-.055.172 1.657 1.74.708 4.257-.388 1.027-1.365 2.327-3.816 2.693.314.48.692.734.69 1.722v3.887c4.11-.993 7.206-5 7.206-9.412C19.412 4.83 15.17.588 10 .588z" fill="#fff"></path>
   </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" id="telegram">
+    <path d="M8.103 10.375l-.318 4.17c.454 0 .651-.183.887-.401l2.13-1.9 4.415 3.017c.81.42 1.38.199 1.598-.695l2.898-12.673h.001c.257-1.118-.433-1.554-1.222-1.28L1.46 6.699c-1.162.42-1.145 1.026-.198 1.3l4.355 1.264 10.115-5.907c.476-.294.908-.132.552.163l-8.181 6.856z" fill="#fff"></path>
+  </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" id="home">
     <path d="M12.24 5.775a.578.578 0 00-.049-.834L6.651.16a.698.698 0 00-.9.01L.193 5.196a.574.574 0 00-.027.833l.14.143c.23.238.604.266.834.063l.415-.367v5.373a.6.6 0 00.605.596h2.166a.6.6 0 00.605-.596V7.482h2.764v3.759c-.005.33.234.596.568.596h2.296a.6.6 0 00.604-.596V5.944l.257.222c.141.122.438.024.662-.22l.158-.17z" fill="#D31342"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33 50" id="icon1">
     <path fill="url(#pattern0)" d="M0 0h33v50H0z"></path>
     <defs>
       <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -37,9 +39,6 @@
       </pattern>
       <image id="image0" width="44" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAMAAAAQhsnYAAAAjVBMVEUAAAD/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pbr/pboPcEqoAAAALnRSTlMAcJADUAf59S0X8el41bGaiYNLDs3BvKyjlVsTEArj3dLKx6RmYEcl9kM9OB8pDKTHNgAAAlVJREFUSMftVNtyokAQbRkGEJAEMF7ASwSUqMn8/+dtn57AotHVqn3aqj0v9nQduk/fpG+cnemHMZt5oamHLuYbYz6mzpmGCN5Mh2jfOfdR73wLqEfjmQHma/jW86HPazpujOfisCIVxIg20yxhhixxoGh1WBhGTAKXzfcvsshf+FUT1fzzkpPF1zu/XFhlxJqQeZCnqn7HEk1vnKZk45WbUNIAiI24Q1/JbXnlvD4yDKEccB019EGrn1NhzISuMHbd8bVvYkxBXGpKTyDlhuGL0zPkExTwkCWlPmef9I3V8bjq7M/srEUaD564FoUCMI2klAJTj0eWKulCgtm48LIBMpuZEUwRxLG2g3RTa2dEQgwhA8ojLNOe82KgGBmr2mOJIqiFjJD42wMsfywFC6FSqsKHtlVjH/EOnJeWGA0saXxCNIICaBkRJRiYxMOgl2BE6QbTvUfG/DdpBFOHdmHb++TWrnuosUgwUO+RK1FWl82quO4jeoWA8Ir+mcwg99ha2E5luIcZZ8xlSjPpgF1gL4CBcMBOEakdLIQDAq9bb81N3UpotZTrlBBjueGlksBbbr0mQQAh1m6b0alfnVHT2mgQ0d93gZtWdAcKd15cLKup9W2urs3VykNssr7FXSeQfpkKV1qVP7llhdu9lojF3AbX3GAry/oDMbv94tJX+PL/cQOuj4zrgVxo810S3Mw5CfrnxCq7gxwd9WIlJcceup/TfTSQssvyPNtBQkN/RMukDruWHkDVHbdW9Ai4lJCBS3mE/qz+k/9lsheG3tNk4K/JvwAtLWwBEdlSUgAAAABJRU5ErkJggg=="></image>
     </defs>
-  </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" id="telegram">
-    <path d="M8.103 10.375l-.318 4.17c.454 0 .651-.183.887-.401l2.13-1.9 4.415 3.017c.81.42 1.38.199 1.598-.695l2.898-12.673h.001c.257-1.118-.433-1.554-1.222-1.28L1.46 6.699c-1.162.42-1.145 1.026-.198 1.3l4.355 1.264 10.115-5.907c.476-.294.908-.132.552.163l-8.181 6.856z" fill="#fff"></path>
   </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 10" id="Vector">
     <path d="M1.403 1l4.28 4-4.28 4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>

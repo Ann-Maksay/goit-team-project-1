@@ -9,17 +9,21 @@
   }
   a {
     text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
   .footer-cards {
     padding: 0;
     margin: 0;
+    //margin-bottom: 83px;
   }
+  
 
   .footer-card {
     margin: 0;
     padding: 0;
 
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
     background: $white;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
@@ -27,7 +31,35 @@
     padding-left: 20px;
     padding-top: 43px;
     padding-bottom: 61px;
+
+
   }
+  @media screen and (max-width: 767px)
+  {
+    .footer-card
+    {height: 427px;
+      max-width: 179px;
+      padding-bottom: 43px;
+    margin-bottom: 20px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-card
+   { height: 554px;
+     width: 157px;
+     padding-bottom: 50px;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-card
+    {
+      height: 572px;
+      width: 330px;
+      }
+  }
+  
   .footer-adres {
     margin: 0;
     padding: 0;
@@ -43,6 +75,26 @@
     letter-spacing: 0.02em;
     color: #757575;
   }
+  @media screen and (max-width: 767px)
+  {
+    .footer-adres
+    {padding-top: 25px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-adres
+   { padding-top: 30px;
+    padding-bottom: 0;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-adres
+    {
+      padding-top: 32px;
+      }
+  }
 
   .footer-title {
     margin: 0;
@@ -53,28 +105,70 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.6;
-    /* or 22px */
+      /* or 22px */
     background: #f0d1a5;
     border-radius: 4px;
 
     text-align: center;
     letter-spacing: 0.04em;
 
-    color: $white;
-  }
+    color: $white;}
+    @media screen and (max-width: 767px)
+    {
+      .footer-title
+      {font-size: 12px;
+      line-height: 166%;
+   height: 16px;}
+    }
+
+    @media screen and (min-width: 768px)
+    {
+      .footer-title
+     { font-size: 16px;
+      line-height: 186%;
+      height: 28px;
+    }
+    }
+    @media screen and (min-width: 1200px)
+    {
+      .footer-title
+      {font-size: 16px;
+      line-height: 186%;
+      height: 28px;}
+    }
+  
   .food {
     margin: 0;
     padding: 0;
-    width: 130px;
-    height: 16px;
+    
     background: #c2e297;
     border-radius: 4px;
+  }
+  @media screen and (max-width: 767px)
+  {
+    .food
+    {width: 130px;
+ height: 16px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .food
+   { width: 138px;
+    height: 28px;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .food
+    {width: 138px;
+    height: 28px;}
   }
   .footer-town {
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
-    padding-top: 25px;
+    //padding-top: 25px;
     font-family: $mainFontFamily;
     font-style: normal;
     font-weight: 500;
@@ -86,6 +180,28 @@
     /* or 22px */
     color: $black;
   }
+  @media screen and (max-width: 767px)
+  {
+    .footer-town
+    {font-size: 12px;
+      line-height: 186%;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-town
+   { font-size: 14px;
+    line-height: 186%;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-town
+    {font-size: 16px;
+      line-height: 186%;}
+  }
+
+
   .foter-caed-description {
     margin: 0;
     padding: 0;
@@ -98,6 +214,26 @@
     /* or 150% */
     color: $gray;
   }
+  @media screen and (max-width: 767px)
+  {
+    .foter-caed-description 
+    {font-size: 12px;
+      line-height: 150%;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-caed-description 
+   { font-size: 14px;
+    line-height: 166%;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-caed-description 
+    {font-size: 16px;
+      line-height: 183%;}
+  }
   .footer-time {
     margin: 0;
     padding: 0;
@@ -109,8 +245,28 @@
 
     line-height: 186%;
   }
+  @media screen and (max-width: 767px)
+  {
+    .footer-time 
+    {font-size: 12px;
+      }
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-time 
+   { font-size: 14px;
+    
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-time 
+    {font-size: 16px;
+      }
+  }
   .foter-towncard {
-    padding-bottom: 25px;
+    
     position: relative;
     &::after {
       position: absolute;
@@ -125,13 +281,35 @@
 
       border: 1px solid #e1e1e1;
     }
+  }
+  @media screen and (max-width: 767px)
+  {
+    .foter-towncard 
+    {padding-bottom: 25px;
+    padding-top: 32px;
+      }
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-towncard 
+   { padding-bottom: 30px;
+    padding-top: 32px;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-towncard
+    {padding-bottom: 32px;
+      padding-top: 32px;
+      }
   }
   .foter-town-time {
     position: relative;
     margin: 0;
     padding: 0;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    // padding-top: 25px;
+    //padding-bottom: 25px;
 
     &::after {
       position: absolute;
@@ -147,6 +325,30 @@
       border: 1px solid #e1e1e1;
     }
   }
+
+  @media screen and (max-width: 767px)
+  {
+    .foter-town-time
+    {padding-top: 25px;
+    padding-bottom: 25px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-town-time
+  { padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-town-time
+    {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      }
+  }
+
   .footer-day {
     margin: 0;
     padding: 0;
@@ -154,9 +356,29 @@
     padding-top: 10px;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    
+  }
+  @media screen and (max-width: 767px)
+  {
+    .footer-day
+    {font-size: 12px;
+      line-height: 186%;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-day
+   { font-size: 14px;
     line-height: 186%;
   }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-day
+    {font-size: 16px;
+      line-height: 186%;}
+  }
+
   .footer-adres {
     padding: 0;
     margin: 0;
@@ -169,7 +391,7 @@
     text-decoration: none;
     font-family: $mainFontFamily;
 
-    padding-bottom: 43px;
+    //padding-bottom: 43px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -177,9 +399,50 @@
     /* or 150% */
     color: $gray;
   }
-  .footer-button {
-    margin-top: 54px;
-    margin-bottom: 106px;
+  
+  @media screen and (max-width: 767px)
+  {
+    .foter-tel
+    {font-size: 12px;
+      line-height: 18px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-tel
+   { font-size: 14px;
+    line-height: 183%;
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-tel
+    {font-size: 16px;
+      line-height: 183%;}
+  }
+  // .footer-button {
+  //   margin-top: 54px;
+  //   margin-bottom: 106px;
+  // }
+  
+  @media screen and (max-width: 767px)
+  {
+    .footer-button
+    {margin-top: 54px;
+      margin-bottom: 113px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-button
+    {margin-top: 81px;
+      margin-bottom: 158px;}
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-button
+    {margin-top: 86px;
+      margin-bottom: 165px;}
   }
   .footer-boton-svg {
     fill: $white;
@@ -282,6 +545,25 @@
     display: flex;
     flex-direction: row-reverse;
   }
+  @media screen and (max-width: 767px)
+  {
+    .footer-media
+    {
+      height: 32px;
+      margin-bottom: 46px;}
+  }
+  @media screen and (min-width: 768px)
+  {
+    .footer-media
+    {
+      height: 34px;margin-bottom: 46px;}
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-media
+    {margin-bottom: 50px;
+      height: 34px;}
+  }
   .footer-icon {
     fill: #afb1b8;
     padding: 0;
@@ -310,15 +592,37 @@
     }
   }
   .footer-ice-title {
-    margin-left: 20px;
-    max-width: 234px;
-    max-height: 135px;
+    //margin-left: 20px;
+    
     font-family: $titleFontFamily;
     font-style: normal;
     font-weight: normal;
 
     text-transform: uppercase;
-    margin-bottom: 43px;
+    //margin-bottom: 43px;
+  }
+  @media screen and (max-width: 767px)
+  {
+    .footer-ice-title
+    {margin-bottom: 43px;
+      margin-left: 20px;
+      max-width: 234px;
+      max-height: 135px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .footer-ice-title
+    {margin-bottom: 91px;
+      max-width: 340px;
+      max-height: 183px;}
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .footer-ice-title
+    {margin-bottom: 97px;
+      max-width: 100%;
+      max-height: 100%;}
   }
   .foter-ice {
     color: $pink;
@@ -326,6 +630,29 @@
     line-height: 21px;
     margin: 0;
     padding: 0;
+  }
+  @media screen and (max-width: 767px)
+  {
+    .foter-ice
+    {font-size: 18px;
+      line-height: 21px;
+    padding-bottom: 17px;
+    }
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-ice
+    {font-size: 26px;
+      line-height: 30px;
+    padding-bottom: 16px;}
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-ice
+    {font-size: 30px;
+      line-height: 34px;
+    margin-bottom: 15px;}
   }
   .foter-passion {
     margin: 0;
@@ -336,12 +663,31 @@
 
     color: #d41443;
   }
+  @media screen and (max-width: 767px)
+  {
+    .foter-passion
+    {font-size: 34px;
+      line-height: 39px;}
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-passion
+    {font-size: 48px;
+      line-height: 55px;}
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-passion
+    {font-size: 58px;
+      line-height: 66px;}
+  }
   .footer-contact {
     // width: 100%;
     font-family: $mainFontFamily;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    
     line-height: 186%;
     /* or 22px */
     text-align: right;
@@ -349,6 +695,26 @@
     margin-bottom: 44px;
 
     color: $black;
+  }
+  @media screen and (max-width: 767px)
+  {
+    .foter-tel
+    {font-size: 12px;
+      }
+  }
+
+  @media screen and (min-width: 768px)
+  {
+    .foter-tel
+   { font-size: 14px;
+    
+  }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .foter-tel
+    {font-size: 16px;
+      }
   }
   .footer-contact-tell {
     color: $accentColor;
@@ -479,6 +845,7 @@
     .footer-card {
       width: 330px;
       font-size: 16px;
+      margin-right: 29px;
     }
 
     .footer-cards {

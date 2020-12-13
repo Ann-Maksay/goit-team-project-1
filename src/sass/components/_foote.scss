@@ -101,6 +101,7 @@
     padding: 0;
     width: 80px;
     height: 16px;
+    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -429,7 +430,9 @@
   {
     .footer-button
     {margin-top: 54px;
-      margin-bottom: 113px;}
+      margin-bottom: 113px;
+    cursor:pointer;
+    }
   }
 
   @media screen and (min-width: 768px)
@@ -442,7 +445,8 @@
   {
     .footer-button
     {margin-top: 86px;
-      margin-bottom: 165px;}
+      margin-bottom: 165px;
+      cursor:pointer;}
   }
   .footer-boton-svg {
     fill: $white;
@@ -454,6 +458,7 @@
     fill: #d41342;
   }
   .footer-but {
+    cursor:pointer;
     background: #d41342;
     border-radius: 22px;
     color: #ffffff;
@@ -494,10 +499,13 @@
     }
     &:hover {
       background: #8d6161;
+      transition-property:background;
+      transition-duration: 250ms;
     }
   }
 
   .footer-but-franch {
+    cursor:pointer;
     position: relative;
     width: 161px;
     height: 44px;
@@ -537,6 +545,8 @@
     }
     &:hover {
       background: #ecebeb;
+      transition-duration: 250ms;
+      transition-property:background;
     }
   }
   .footer-media {
@@ -589,6 +599,8 @@
     display: inline-block;
     &:hover {
       background: #d41342;
+      transition-property:background;
+      transition-duration: 250ms;
     }
   }
   .footer-ice-title {
@@ -763,6 +775,7 @@
     }
 
     .footer-but {
+      cursor:pointer;
       margin-bottom: 10px;
     }
     .footer-icon {
